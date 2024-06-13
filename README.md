@@ -29,16 +29,22 @@ Na mesma tabela alunos, atualize os dados do aluno com id_aluno = 3.
 <br>
 
 **Questão 3: Exclusão de Dados**  
-Ainda na tabela alunos, exclua o aluno com id_aluno = 5.
+* Ainda na tabela alunos, exclua o aluno com id_aluno = 5.
+<br>
 <br>
 
 **Questão 4: Consulta Simples**
-- Escreva uma consulta SQL para selecionar todos os alunos da tabela alunos que tenham o curso de "Administração". 
-- Liste apenas os campos id_aluno, nome e idade.
-
+* Escreva uma consulta SQL para selecionar todos os alunos da tabela alunos que tenham o curso de "Administração". 
+* Liste apenas os campos id_aluno, nome e idade.
+<br>
+<br>
+  
 **Questão 5: Consulta com Filtros e Ordenação**  
-- Escreva uma consulta SQL para selecionar os alunos da tabela alunos que tenham menos de 25 anos e estejam cursando "Engenharia Civil". 
-- Ordene o resultado pelo nome do aluno em ordem alfabética. 
-- Liste os campos nome, idade e curso.
+* Escreva uma consulta SQL para selecionar os alunos da tabela alunos que tenham menos de 25 anos e estejam cursando "Engenharia Civil". 
+* Ordene o resultado pelo nome do aluno em ordem alfabética. 
+* Liste os campos nome, idade e curso.
 
-Espero que essas questões ajudem você a praticar e consolidar seus conhecimentos em MySQL!
+
+<br><br>
+
+**:white_check_mark: Espero que essas questões ajudem você a praticar e consolidar seus conhecimentos em MySQL!**
