@@ -8,27 +8,37 @@ Busquei exercícios na internet mas não encontrei nada direto ao ponto, ou que 
 - Gerei esses exercícios através do chatGpt 4
 
 ### :one: Gerando o banco de dados:
--- Criação do banco de dados (caso não exista)
-CREATE DATABASE IF NOT EXISTS escola;
+- Para gerar o banco de dados acesse o seguinte diretório PRATICAMYSQL/gerarBD e execute o arquivo gerarBanco.sql
 
--- Conexão ao banco de dados
-USE escola;
+###  :round_pushpin: Questões:
+**Questão 1: Inserção de Dados**  
+    Insira um novo aluno na tabela alunos com os seguintes dados:
 
--- Criação da tabela alunos
-CREATE TABLE IF NOT EXISTS alunos (
-    id_aluno INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    idade INT,
-    curso VARCHAR(100)
-);
+* Nome: Maria Silva
+* Idade: 21
+* Curso: Engenharia de Computação
+* Nome: Maria Silva
+* Idade: 21
+* Curso: Engenharia de Computação  
+<br><br>
 
--- Inserção de dados iniciais
-INSERT INTO alunos (nome, idade, curso) VALUES
-('João Silva', 20, 'Engenharia de Computação'),
-('Ana Souza', 22, 'Administração'),
-('Pedro Santos', 23, 'Engenharia Civil'),
-('Mariana Oliveira', 25, 'Administração'),
-('Carlos Fernandes', 24, 'Engenharia Civil');
+**Questão 2: Atualização de Dados**  
+Na mesma tabela alunos, atualize os dados do aluno com id_aluno = 3.
+* Altere o nome desse aluno para "João Souza" e a idade para 23.
 
--- Confirmação da inserção de dados
-SELECT * FROM alunos;
+<br>
+
+**Questão 3: Exclusão de Dados**  
+Ainda na tabela alunos, exclua o aluno com id_aluno = 5.
+<br>
+
+**Questão 4: Consulta Simples**
+- Escreva uma consulta SQL para selecionar todos os alunos da tabela alunos que tenham o curso de "Administração". 
+- Liste apenas os campos id_aluno, nome e idade.
+
+**Questão 5: Consulta com Filtros e Ordenação**  
+- Escreva uma consulta SQL para selecionar os alunos da tabela alunos que tenham menos de 25 anos e estejam cursando "Engenharia Civil". 
+- Ordene o resultado pelo nome do aluno em ordem alfabética. 
+- Liste os campos nome, idade e curso.
+
+Espero que essas questões ajudem você a praticar e consolidar seus conhecimentos em MySQL!
